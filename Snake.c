@@ -1,10 +1,23 @@
+/*
+	coding as utf-8
+*/ 
+/*
+    Author  : zong zong
+    Connect : zongozngchu0408@gmail.com
+    School  : 臺北市立中正高級中學
+    GitHub  : https://github.com/zongzong0408/C-Snake-Game
+    
+	Last edited : 2022/10/15/06:00PM
+    
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
 
 #include <windows.h>
-#include <conio.h>			// Console Input/Output (控制台輸入輸出)
+#include <conio.h>			// Console Input / Output (控制台輸入輸出)
 #include <ctype.h>			// 判斷字元形式 
 
 #define LEFT 1
@@ -13,6 +26,7 @@
 #define DOWN 4
 
 // Windows API
+// 在終端機形成畫面 
 void gotoxy(int x, int y)
 {
 	COORD coord;
@@ -21,6 +35,7 @@ void gotoxy(int x, int y)
 
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);
 }
+
 void getup()
 {
 	HANDLE hout;
@@ -37,9 +52,9 @@ void getup()
 	system("cls");
 
 	/*
-		46	： .
-		95 	： _
-		124 ： |
+		46	: .
+		95 	: _
+		124 : |
 	*/
 
 	printf("\n  %c", 46);
@@ -325,3 +340,4 @@ int main()
 		}
 	}
 }
+
