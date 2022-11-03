@@ -6,7 +6,7 @@
     Author  : zong zong
     Connect : zongozngchu0408@gmail.com
     School  : 臺北市立中正高級中學
-    GitHub  : https://github.com/zongzong0408/C-snake_game
+    GitHub  : https://github.com/zongzong0408/C-snakegame
     
 	Last edited : 2022/10/15/06:00PM
     
